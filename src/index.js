@@ -41,6 +41,7 @@ class NoSleep {
 
       this.noSleepVideo.setAttribute("title", "No Sleep");
       this.noSleepVideo.setAttribute("playsinline", "");
+      this.noSleepVideo.muted = true;
 
       this._addSourceToVideo(this.noSleepVideo, "webm", webm);
       this._addSourceToVideo(this.noSleepVideo, "mp4", mp4);
